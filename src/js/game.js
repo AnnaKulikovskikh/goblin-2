@@ -65,7 +65,7 @@ export default class Game {
     }
     this.score();
     this.goblin = document.createElement('img');
-    this.goblin.setAttribute('src', './img/goblin.png');
+    this.goblin.setAttribute('src', '../img/goblin.png');
     this.listFunc = () => {
       this.ball += 1;
       this.newScore();
@@ -96,6 +96,6 @@ export default class Game {
     this.ceil = this.field.childNodes[this.position];
     this.field.childNodes[this.position].appendChild(this.goblin);
     this.field.childNodes[this.position].addEventListener('click', this.listFunc);
-    this.ceil.style.cursor = "url('img/hummer.png'), auto";
+    this.ceil.style.cursor = "url('../img/hummer.png'), auto";
   }
 }

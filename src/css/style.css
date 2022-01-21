@@ -22,5 +22,10 @@
 }
 
 .ceil{
-  cursor: url('../img/hummer.png'), auto;
+  cursor: url("../img/hummer.png"), pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
 }
